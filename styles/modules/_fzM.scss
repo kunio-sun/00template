@@ -1,0 +1,7 @@
+@import "../init";
+.fzM {
+  font-size: 2rem;
+  @include mqDown(720px) {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,7 @@
+@import "../init";
+.mbS {
+  margin-bottom: 20px;
+  @include mqDown(720px) {
+    margin-bottom: 12px;
+  }
+}

@@ -1,0 +1,49 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #fff;
+  color: #707070;
+  cursor: auto;
+  font: normal normal 1.4rem/1.7 "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+  letter-spacing: normal;
+  word-spacing: normal;
+  -webkit-text-size-adjust: 100%;
+}
+
+*:first-child+html body {
+  font-size: 75%;
+}
+
+/* for IE 7 */
+
+* html body {
+  font-size: 75%;
+}
+
+/* for IE 6 or sooner */
+
+.mincho {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.meiryo {
+  font-family: 'Arial Black', 'メイリオ', 'Meiryo', sans-serif;
+}
+
+/******************************************************************** utilities
+*/
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
