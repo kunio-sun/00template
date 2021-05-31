@@ -1,5 +1,4 @@
-# 00template
-マークアップ用テンプレート
+# マークアップ用テンプレート
 + margin,paddingは競合させすぎないように個別で記入
 + mediaQuery使用時には必ず@mixin mqDown()を使用
 
